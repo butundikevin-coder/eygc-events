@@ -8,18 +8,33 @@
     <link rel="icon" type="image/jpg" href="/photo/my_image.jpg"
 </head>
 <body>
+    <header>
     <h1>EYGC Upcoming Events</h1>
+    </header>
+    <main>
     <div class="event">
         <h3>Clean-up Drive</h3>
         <p><strong>Date:</strong>Oct 02, 2026<p>
         <p><strong>Location:</strong>Busia market</p>
-        <button onclick="alert('Thanks! We will contact you via whatsapp.')">Join Event</button>
+        <form action="https://formspree.io/f/xbdvrbzk" medhod="POST">
+             <label for="Email">Email:</label>
+            <input type="email"placeholder="kevin@gmail.com" required><br>
+            <input type="hidden" name="event" value="Clean-up Drive">
+            <button type="submit">Join Event</button>
+        </form>
+    
 
     </div>
     <div class ="event">
         <h3>Tree Planting</h3>
         <p><strong>Date:</strong>Oct 14, 2026<p>
         <p><strong>Location:</strong>Matoke garden</p>
+        <form action="https://formspree.io/f/xbdvrbzk" medhod="POST">
+             <label for="Email">Email:</label>
+            <input type="email"placeholder="kevin@gmail.com" required><br>
+            <input type="hidden" name="event" value="Clean-up Drive">
+            <button type="submit">Join Event</button>
+        </form>
 
         
     </div>
@@ -27,8 +42,20 @@
         <h3>Youth summit</h3>
         <p><strong>Date:</strong>Dec 10, 2026<p></p>
         <p><strong>Location:</strong>Mipeja Hotel</p>
+        <form action="https://formspree.io/f/xbdvrbzk" medhod="POST">
+             <label for="Email">Email:</label>
+            <input type="email"placeholder="kevin@gmail.com" required><br>
+            <input type="hidden" name="event" value="Clean-up Drive">
+            <button type="submit">Join Event</button>
+        </form>
 
     </div>
-    
+    </main>
+    <footer>
+         <a href="https://whatsapp.com/dl/"
+         <p> 0714117210</p>
+        </a>
+        
+    </footer>
 </body>
 </html>
